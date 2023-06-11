@@ -1,0 +1,44 @@
+Printing out Movies 1, 2, 3, and 4 (before any information is added):
+Alpha (0,0)
+Alpha (0,0)
+Beta (0,0)
+Gamma (0,0)
+
+Testing getTitle on Movie 1 (expect Alpha): Alpha
+Testing getTitle on Movie 3 (expect Beta): Beta
+
+Testing addOneActor and getActors on Movie 1 (adding Tyler Perry): [Tyler Perry]
+
+Testing addAllActors and getActors on Movie 2 (adding Tyler, Cassi, Patrice, and Stella: [Patrice Lovely, Cassi Davis, Stella, Tyler Perry]
+Testing addAllActors and getAllActors on Movie 3 (adding Tyler, Cassi, Patrice, and Takis): {Takis (Female)=Supporting, Patrice Lovely (Female)=Supporting, Cassi Davis (Female)=Supporting, Tyler Perry (Male)=Leading}
+Testing addAllActors and getAllActors on Movie 4 (adding Tyler and Cassi): {Cassi Davis (Female)=Supporting, Tyler Perry (Male)=Leading}
+
+Testing setTestResults on Movie 1 with the data "0,0,1,0,0,1,1,1,1,0,1,1,1"
+Testing getAllTestResults on Movie 1 (expect above data): [0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1]
+Testing getAllTestResults on Movie 2 (expect empty vector): []
+Testing setTestResults on Movie 3 with the data "0,0,1,0,0,0,1,1,1,1,1,1,0"
+Testing getAllTestResults on Movie 3 (expect above data): [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0]
+Testing setTestResults on Movie 4 with the data "0,0,1,0,0,1,1,1,1,0,1,1,1"
+Testing getAllTestResults on Movie 4 (expect above data): [0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1]
+
+Testing feministScore on Movie 1 (expect 3): 3
+Testing feministScore on Movie 3 (expect 9): 9
+Testing feministScore on Movie 4 (expect 3): 3
+
+Printing out Movies 1, 2, 3, and 4 again (now with information):
+Alpha (3,5)
+Alpha (0,0)
+Beta (9,6)
+Gamma (3,5)
+
+Testing equals on Movies 1 and 2 (expect true): true
+Testing equals on Movies 2 and 1 (expect true): true
+Testing equals on Movies 3 and 4 (expect false): false
+
+Testing compareTo on Movies 1 and 2 (expect 1 because 3 > 0): 1
+Testing compareTo on Movies 2 and 1 (expect -1 because 0 < 3): -1
+Testing compareTo on Movies 2 and 3 (expect -1 because 0 < 9): -1
+Testing compareTo on Movies 1 and 4 (expect 1 because (3,5) == (3,5) but A before G): 1
+
+Set the same testResults data as Movie 1 to Movie 2 -- feministScore of Movie 2 (expect 3): 3
+Testing compareTo on Movies 1 and 2 (expect 0): 0

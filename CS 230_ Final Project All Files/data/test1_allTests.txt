@@ -1,0 +1,5 @@
+movie,bechdel,peirce,landau,feldman,villareal,hagen,ko,villarobos,waithe,koeze_dottle,uphold,white,rees-davies
+When Harry Met Sally...,0,1,1,1,1,1,1,1,1,1,1,1,1
+The Florida Project,0,1,0,0,1,1,1,1,1,1,1,1,0
+Lady Bird,0,0,0,0,1,1,1,1,1,1,1,0,1
+Don't Look Up,0,0,1,1,1,1,1,1,1,1,1,0,0

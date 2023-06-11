@@ -1,0 +1,15 @@
+movie,bechdel,peirce,landau,feldman,villareal,hagen,ko,villarobos,waithe,koeze_dottle,uphold,white,rees-davies
+Star Trek Beyond,1,0,1,1,1,1,0,1,1,1,1,1,0
+Boo! A Madea Halloween,0,0,1,1,1,1,0,1,0,0,1,1,1
+Hidden Figures,0,0,0,0,0,1,0,1,0,1,1,1,1
+Sully,1,1,0,1,0,1,1,1,1,0,1,1,1
+The Girl on the Train,0,0,1,0,0,1,1,1,1,0,1,1,1
+Don't Breathe,0,0,1,1,1,1,1,1,1,0,1,1,1
+10 Cloverfield Lane,0,0,1,1,0,1,1,1,1,1,1,1,1
+Bad Moms,0,0,0,1,0,0,0,1,0,0,1,1,1
+La La Land,0,0,1,1,0,1,1,1,1,0,1,1,1
+Arrival,0,0,1,0,0,1,1,1,1,0,1,1,1
+Storks,1,0,1,1,0,1,1,1,1,0,1,1,0
+
+
+

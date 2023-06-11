@@ -1,0 +1,25 @@
+Testing enqueue on PriorityQueue (enqueue Integers 110, 121, 230, 307, 240, 313)
+
+Testing first on PriorityQueue (expect 313): 313
+
+Testing size on PriorityQueue (expect 6): 6
+
+Testing isEmpty on PriorityQueue (expect false): false
+
+Testing toString on PriorityQueue (expect inorder order):
+111
+240
+230
+313
+121
+307
+
+Testing dequeue on PriorityQueue until all elements are dequeued (expect highest to lowest):
+Dequeuing 313
+Dequeuing 307
+Dequeuing 240
+Dequeuing 230
+Dequeuing 121
+Dequeuing 111
+
+Testing isEmpty on empty PriorityQueue (expect true): true

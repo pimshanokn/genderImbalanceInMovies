@@ -1,0 +1,18 @@
+Printing out actors 1, 2, and 3:
+Actor 1: Tyler Perry (Male)
+Actor 2: Cassie Davis (Female)
+Actor 3: Patrice Lovely (Female)
+
+Testing getName on Actor 1 (expect Tyler Perry): Tyler Perry
+Testing getGender on Actor 2 (expect Female): Female
+
+Testing setName on Actor 1 (expect Cassie Davis (Male)): Cassie Davis (Male)
+Testing setGender on Actor 1 (expect Cassie Davis (Female)): Cassie Davis (Female)
+
+Testing hashCode on Actor 1: 2056891325
+Testing hashCode on Actor 2 (expect same as above): 2056891325
+Testing hashCode on Actor 3 (expect different as above): 1753423203
+
+Testing equals on Actors 1 and 2 (expect true): true
+Testing equals on Actors 2 and 1 (expect true): true
+Testing equals on Actors 2 and 3 (expect false): false
